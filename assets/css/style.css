@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+footer {
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour la carte des pharmacies */
+#map {
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Ajouter à assets/css/style.css */
+.fc-event {
+    cursor: pointer;
+}
+.fc-event:hover {
+    opacity: 0.9;
+}
+.table-responsive {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+/* Styles pour la page gestion_zones.php */
+.table-responsive {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+#zoneStatsChart {
+    max-height: 400px;
+}
+
+.btn-group-sm .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
